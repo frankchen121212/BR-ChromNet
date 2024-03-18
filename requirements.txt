@@ -1,0 +1,20 @@
+# YOLOv5 requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+torch==1.13.1
+torchvision==0.14.1
+tqdm>=4.64.0
+protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+scikit-image
+noise==1.1.1
