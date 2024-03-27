@@ -190,7 +190,7 @@ def abnormal_classification(inpt_img):
         prob_2 = F.softmax(out_2, dim=-1)
         pred_2 = prob_2.argmax(1, keepdim=True).detach().cpu().numpy()
 
-        out_3 = model_2(x)
+        out_3 = model_3(x)
         prob_3 = F.softmax(out_3, dim=-1)
         pred_3 = prob_3.argmax(1, keepdim=True).detach().cpu().numpy()
 
