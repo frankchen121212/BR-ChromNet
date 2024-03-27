@@ -51,14 +51,6 @@ def identify_abnormal_banding(ab_mask, bp_vector):
 
     x, y, w, h = cv2.boundingRect(contours[c_id])
 
-
-    # search_string = ''
-    # for c in bp_vector:
-    #     search_string += str(c)
-    # max_bp = longest_connected_strings_with_char(search_string)
-    # max_len_bp = len(max_bp)
-    #
-    # if h > max_len_bp:
     for i_height in range(y, y + h):
         ab_bp_vector[i_height] = 2
     return ab_bp_vector
@@ -169,9 +161,9 @@ def abnormal_classification(inpt_img):
     model_2 = model_2.to(device)
     model_2.eval()
 
-    model_3 = get_efficientnetV2(OUTPUT_DIM=2)
+    model_3 = get_convnext(OUTPUT_DIM=2)
     model_3.load_state_dict(
-        torch.load('models/{}/efficientnetV2_best.pt'.format(
+        torch.load('models/{}/convnext_best.pt'.format(
             abnormal_type), ))
     model_3 = model_3.to(device)
     model_3.eval()
