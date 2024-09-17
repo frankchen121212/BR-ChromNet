@@ -1,5 +1,5 @@
 ## Introduction
-This is the program implementation of the paper: [*BR-ChromNet: Banding Resolution Localization of Chromosome Structural Abnormality with Conditional Random Field*]() (Under Review).
+This is the program implementation of the paper: [*BR-ChromNet: Banding Resolution Localization of Chromosome Structural Abnormality with Conditional Random Field](https://doi.org/10.1016/j.jmb.2024.168733) (Under Review).
 You can reproduce our results using this repo.
 
 
