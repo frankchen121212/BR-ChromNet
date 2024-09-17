@@ -3,7 +3,7 @@ This is the program implementation of the paper: [*BR-ChromNet: Banding Resoluti
 You can reproduce our results using this repo.
 
 
-## Overall Framework of RHSNet
+## Overall Framework of BRChromNet
 <div align="center">
     <img src="framework.png", width="800">
 </div>
