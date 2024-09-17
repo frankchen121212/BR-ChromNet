@@ -61,5 +61,15 @@ Code for banding patter extraction is sourced from
 ## Citation
 
 If you use our code or models in your research, please cite upon publication:
-
-
+```
+@article{chen2024br,
+  title={BR-ChromNet: Banding resolution localization of chromosome structural abnormality with conditional random field},
+  author={Chen, Siyuan and Hu, Tingting and Li, Na and Gao, Xin and Yu, Yongguo},
+  journal={Journal of Molecular Biology},
+  volume={436},
+  number={20},
+  pages={168733},
+  year={2024},
+  publisher={Elsevier}
+}
+```
